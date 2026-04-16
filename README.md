@@ -53,16 +53,39 @@ decision-memo/
 
 ## Installation
 
-### Claude Projects (primary use case)
+### Option 1 — CLI (fastest)
 
-1. Download or clone this repo
-2. In Claude's web interface, create or open a project
-3. Upload the skill files to the project's knowledge base
-4. In any conversation within that project, the skill will be available
+Clone the repo directly:
 
-### Manual use without installation
+```bash
+git clone https://github.com/<your-username>/decision-memo.git
+```
 
-You can also paste the contents of `SKILL.md` into any Claude conversation as an initial message to activate the behavior for that session. This is lower fidelity than proper skill loading but works for one-off use.
+Or download just the skill files without git history:
+
+```bash
+curl -L https://github.com/<your-username>/decision-memo/archive/refs/heads/main.tar.gz | tar -xz
+```
+
+Or download a zip:
+
+```bash
+curl -LO https://github.com/<your-username>/decision-memo/archive/refs/heads/main.zip
+unzip main.zip
+```
+
+Once downloaded, upload the files to your Claude Project's knowledge base, or pass them to Claude Code / API as part of your context.
+
+### Option 2 — GitHub web interface
+
+1. Click the green **Code** button above, then **Download ZIP**
+2. Unzip locally
+3. In Claude's web interface, create or open a project
+4. Upload the skill files to the project's knowledge base
+
+### Option 3 — Manual paste (lowest fidelity)
+
+Paste the contents of `SKILL.md` into any Claude conversation as an initial message to activate the behavior for that session. Works for one-off use but loses the multi-file structure.
 
 ## Customization
 
