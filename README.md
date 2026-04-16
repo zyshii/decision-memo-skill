@@ -2,6 +2,8 @@
 
 A Claude skill for turning day-to-day workplace decisions into durable career capital — structured, retrievable, and ready to power portfolio case studies and behavioral interview stories.
 
+**TL;DR: 既然改变不了煞笔同事，那就把煞笔同事蒸馏成自己跳槽的资本**
+
 ## Why This Exists
 
 Knowledge workers make dozens of meaningful decisions a year: tradeoffs navigated, stakeholders managed, constraints accepted. Most of this material is lost because it's never recorded in a form that survives past the week it happened. By the time job search comes around, memory has smoothed over the sharp edges — the specific alternatives weighed, the political judgments made, the assumptions that turned out to be wrong. What's left is execution narrative, not judgment narrative.
