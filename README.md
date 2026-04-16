@@ -58,19 +58,19 @@ decision-memo/
 Clone the repo directly:
 
 ```bash
-git clone https://github.com/zyshii/decision-memo.git
+git clone https://github.com/zyshii/decision-memo-skill.git
 ```
 
 Or download just the skill files without git history:
 
 ```bash
-curl -L https://github.com/zyshii/decision-memo/archive/refs/heads/main.tar.gz | tar -xz
+curl -L https://github.com/zyshii/decision-memo-skill/archive/refs/heads/main.tar.gz | tar -xz
 ```
 
 Or download a zip:
 
 ```bash
-curl -LO https://github.com/zyshii/decision-memo/archive/refs/heads/main.zip
+curl -LO https://github.com/zyshii/decision-memo-skill/archive/refs/heads/main.zip
 unzip main.zip
 ```
 
